@@ -1,15 +1,11 @@
-# ClashRoyale
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ClashRoyale`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+# :crown: Clash Royale 
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ClashRoyale'
+gem 'clashroyale'
 ```
 
 And then execute:
@@ -18,11 +14,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install ClashRoyale
+    $ gem install clashroyale
 
 ## Usage
 
-TODO: Write usage instructions here
+Use this gem to get a inteface with Clash Royale API
 
 ## Development
 
@@ -32,10 +28,11 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ClashRoyale. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/clashroyale. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+This content is not affiliated with, endorsed, sponsored, or specifically approved by Supercell and Supercell is not responsible for it. For more information see Supercell’s Fan Content Policy.
 

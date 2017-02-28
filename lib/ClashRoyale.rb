@@ -6,24 +6,19 @@ module Clashroyale
   base_uri 'http://www.clashapi.xyz'
 
   def self.cards
-    parsed get("#{base_uri}/api/cards", format: :json)
+    get("#{base_uri}/api/cards", format: :json).parsed_response
   end
 
   def self.arenas
-    parsed get("#{base_uri}/api/arenas", format: :json)
+    get("#{base_uri}/api/arenas", format: :json).parsed_response
   end
 
   def self.chests
-    parsed get("#{base_uri}/api/chests", format: :json)
+    get("#{base_uri}/api/chests", format: :json).parsed_response
   end
 
   def self.players
-    parsed get("#{base_uri}/api/players", format: :json)
+    get("#{base_uri}/api/players", format: :json).parsed_response
   end
 
-  private
-
-  def parsed(response)
-    response.parsed_response
-  end
 end

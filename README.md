@@ -1,6 +1,6 @@
 # :crown: Clash Royale 
 
-![alt tag](https://clashroyalejuwelen.files.wordpress.com/2016/02/clash-royale-juwelen-hack.png?w=440)
+![alt tag](http://clashroyalearena.com/wp-content/uploads/2016/08/eltOwBn.jpg)
 
 ## Installation
 

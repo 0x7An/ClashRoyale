@@ -1,5 +1,7 @@
 # :crown: Clash Royale 
 
+![alt tag](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR0VnDhXhEmXMc2M-F-uCMnei-FK4OzWwdlu_pJtdT7oj8PkxR0uA)
+
 ## Installation
 
 Add this line to your application's Gemfile:

@@ -1,4 +1,4 @@
-# :crown: Clash Royale 
+# Clash Royale Ruby Gem
 
 ![alt tag](http://clashroyalearena.com/wp-content/uploads/2016/08/eltOwBn.jpg)
 

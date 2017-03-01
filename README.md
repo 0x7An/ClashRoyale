@@ -1,6 +1,4 @@
-# Clash Royale Ruby Gem to connect to martincarrera's clash-royale-api 
-
-https://github.com/martincarrera/clash-royale-api
+# Clash Royale Ruby Gem to connect to [martincarrera's](https://github.com/martincarrera/clash-royale-api) [Clash Royale API](http://www.clashapi.xyz/)
 
 ## Installation
 
@@ -35,7 +33,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/clashroyale. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/andersonanderson/clashroyale. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 

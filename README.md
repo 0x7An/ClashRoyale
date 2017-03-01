@@ -1,4 +1,4 @@
-# Clash Royale Ruby Gem to connect to [martincarrera's](https://github.com/martincarrera/clash-royale-api) [Clash Royale API](http://www.clashapi.xyz/)
+# Ruby Gem to connect to [martincarrera's](https://github.com/martincarrera/clash-royale-api) [Clash Royale API](http://www.clashapi.xyz/)
 
 ## Installation
 

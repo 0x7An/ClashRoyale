@@ -7,7 +7,7 @@ module Clashroyale
 end
 
 # Deck class
-class Deck
+class Chashdata
   include Clashroyale
 
   attr_accessor :cards, :arenas, :chests, :players
@@ -15,20 +15,13 @@ class Deck
   # that hash has 4 others hashes
 
   def initialize
-    self.cards = fetch('cards')
-    self.arenas = fetch('arenas')
-    self.chests = fetch('chests')
     self.players = fetch('players')
+    self.chests = fetch('chests')
+    self.arenas = fetch('arenas')
+    self.cards = fetch('cards')
   end
 
-  def legendary
-    cards.map do |hsh|
-      hsh.map do |item|
-        puts item['legendary']
-        puts item['name']
-      end
-    end
-  end
+  private
 
   def fetch(type)
     HTTParty.get("http://www.clashapi.xyz/api/#{type}", format: :json).parsed_response

@@ -1,10 +1,6 @@
-# Clash Royale Ruby Gem
-
-![alt tag](http://clashroyalearena.com/wp-content/uploads/2016/08/eltOwBn.jpg)
+# Clash Royale Ruby Gem to connect to martincarrera's clash-royale-api https://github.com/martincarrera/clash-royale-api
 
 ## Installation
-
-Add this line to your application's Gemfile:
 
 ```ruby
 gem 'clashroyale'
@@ -21,6 +17,13 @@ Or install it yourself as:
 ## Usage
 
 Use this gem to get a inteface with Clash Royale API
+```ruby
+ clashdata = Deck.new
+ clashdata.cards      #Retrives a array of All Cards
+ clashdata.chests     #Retrives a array of All Cards
+ clashdata.arenas     #Retrives a array of All Cards
+ clashdata.players    #Retrives a array of All Cards
+ ```
 
 ## Development
 

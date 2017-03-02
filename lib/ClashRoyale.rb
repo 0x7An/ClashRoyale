@@ -1,11 +1,9 @@
 require 'clashroyale/version'
 require 'httparty'
-require 'byebug'
 
 # Top module
 module Clashroyale
   include HTTParty
-  include Byebug
 end
 
 # Chashdata class

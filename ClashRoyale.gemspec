@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Clashroyale::VERSION
   spec.authors       = ["Anderson Silva"]
   spec.email         = ["sqacecadet@gmail.com"]
-  spec.summary       = %q{Ruby interface to Clash Royale API}
-  spec.description   = %q{Ruby interface to Clash Royale API}
+  spec.summary       = %q{Ruby interface to Clash Royale API, www.clashroyale.xyz }
+  spec.description   = %q{Ruby interface to Clash Royale API, www.clashroyale.xyz }
   spec.homepage      = ""
   spec.license       = "MIT"
 

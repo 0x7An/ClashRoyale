@@ -6,7 +6,7 @@ require 'clashroyale/version'
 Gem::Specification.new do |spec|
   spec.name          = "clashroyale"
   spec.version       = Clashroyale::VERSION
-  spec.authors       = ["Anderson da silva lima"]
+  spec.authors       = ["Anderson Silva"]
   spec.email         = ["sqacecadet@gmail.com"]
   spec.summary       = %q{Ruby interface to Clash Royale API}
   spec.description   = %q{Ruby interface to Clash Royale API}
@@ -23,6 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "byebug", "~> 9.0"
 
   spec.add_dependency "httparty",  "~> 0.13.7"
 end

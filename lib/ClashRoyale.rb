@@ -1,22 +1,31 @@
 require 'clashroyale/version'
+require 'clashroyale/card'
 require 'httparty'
+require 'byebug'
 
 # Top module
 module Clashroyale
   include HTTParty
+  include Byebug
 end
 
 # Chashdata class
 class Clashdata
   include Clashroyale
 
-  attr_accessor :cards, :arenas, :chests, :players
+  attr_accessor :cards, :arenas, :chests, :players, :newcard
 
   def initialize
     @players = []
     @chests = []
     @arenas = []
     @cards =  []
+    byebug
+    @newcard = Card.new
+  end
+
+  def newcard
+    @card = Card.new
   end
 
   def cards
@@ -39,7 +48,7 @@ class Clashdata
     @arenas
   end
 
-  private
+  protected
 
   def fetch(type)
     begin
